@@ -32,7 +32,7 @@ while running:
 			quit()
 
 
-	pygame.draw.circle(window, ((100, count, count)), (coords[0] + x, coords[1] + y), 2)
+	pygame.draw.circle(window, ((20, count, count)), (coords[0] + x, coords[1] + y), 2)
 	x += x_change
 	y += y_change
 
